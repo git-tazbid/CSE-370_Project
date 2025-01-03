@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../images/background.jpg");
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dashboard-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00b327;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.meal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.meal-form label {
+    font-size: 14px;
+    color: #555;
+}
+
+.meal-form input,
+.meal-form select,
+.meal-form textarea,
+.meal-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.meal-form input:focus,
+.meal-form select:focus,
+.meal-form textarea:focus {
+    border-color: #00b327;
+    outline: none;
+}
+
+.meal-form button {
+    background-color: #00b327;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.meal-form button:hover {
+    background-color: #47d766;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
